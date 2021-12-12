@@ -24,15 +24,15 @@ class BertBase(nn.Module):
 #"dccuchile/bert-base-spanish-wwm-cased" 'Betoweight.pth'
 #"bert-base-multilingual-cased" 'MBertweight.pth'
 class BERT():
-    def __init__(self, n_class, id_model, id_weight):
+    def __init__(self, n_class, size, id_model, id_weight):
         self.device = 'cpu'
         self.model = BertBase(n_class, id_model)
         self.model = self.model.to(self.device)
         self.tokenizer = BertTokenizer.from_pretrained(id_model)
-        self.MAX_LEN = 200
+        self.MAX_LEN = size
         self.loaded_weight = torch.load(id_weight, map_location=self.device)
         self.model.load_state_dict(self.loaded_weight)
-
+    
     def sentiment_classification(self, review):
         encoding_review = self.tokenizer.encode_plus(
             review,
