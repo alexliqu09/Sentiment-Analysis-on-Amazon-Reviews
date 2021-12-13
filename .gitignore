@@ -1,4 +1,4 @@
-env/
+venv/
 *.pth
 __pycache__
 *.png

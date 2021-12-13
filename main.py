@@ -1,3 +1,7 @@
+#docker build -t bert
+#docker run -t -p 5000:5000 --name betocontainer bert
+
+
 import streamlit as st 
 from  controller import controller
 
