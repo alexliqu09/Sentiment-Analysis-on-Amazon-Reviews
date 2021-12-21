@@ -1,7 +1,6 @@
 # docker build -t bert
 # docker run -t -p 5000:5000 --name betocontainer bert
 
-#from pathlib import Path
 import streamlit as st
 import base64
 from controller import controller
@@ -40,6 +39,7 @@ if __name__ == "__main__":
                 the accuracy and F1 score metrics. Finally, it was found that the Spanish BERT model has the best results for the sentiment
                 analysis task on the Amazon reviews dataset in Spanish.
             </p>
+            <div>Our paper is available <a href="https://drive.google.com/file/d/1Pb4xD-e_KRWBQZ-JdFOgHUJFfKfrL-u_/view?usp=sharing">here</a></div>
             """,
             unsafe_allow_html=True
         )
@@ -96,7 +96,7 @@ if __name__ == "__main__":
         buttom = st.button("Beto")
         if buttom:
             st.text(controller.prediction(frase, "beto"))
-        
+            pass
     if Radio == "MBert":
         st.text_input("")
         st.markdown(
@@ -136,7 +136,7 @@ if __name__ == "__main__":
         buttom = st.button("MBert")
         if buttom:
             st.text(controller.prediction(frase, "mbert"))
-            
+            pass
     if Radio == "About":
         st.markdown(
             "<h1 style='text-align:left; color: black;'><center>About</center></h1>",
@@ -148,5 +148,11 @@ if __name__ == "__main__":
         )
         st.title("Contact Us")
         st.markdown(
-            "If want to contact us, you should see: \n My [Email](https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=alexander.lique.l@uni.pe) \n My [Github](https://github.com/alexliqu09),\n My [Twitter](https://twitter.com/lique_alex)"
+            """ 
+                - Alexander Lique: \n[Email](https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=alexander.lique.l@uni.pe),\n [alexliqu09](https://github.com/alexliqu09)\n an \n [@lique_alex](https://twitter.com/lique_alex).            
+            """
         )
+
+        st.markdown("- Diego Vásquez: \n [Email](https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=diego.vasquez.l@uni.pe)\n and \n [Github](https://github.com/Diego-Vasquez).")
+
+        st.markdown(" - Manuel Rios: \n [Email](https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&source=mailto&to=jriosy@uni.pe) \n and \n [Github](https://github.com/ManuelRios1803).")

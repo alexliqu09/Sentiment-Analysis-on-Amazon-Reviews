@@ -1,5 +1,15 @@
 <h1><center><b>Applying BERT Fine Tuning to Sentiment Classification on Amazon Reviews</b></center></h1>
 
+<h2><b>Abstract</b></h2>
+<p>
+Sentiment analysis has made great progress in recent years, due to the fact that companies want to have a better
+understanding of how their products are classified by their consumers. However, despite the great advances that 
+emerge in the field of artificial intelligence to solve this task, the most robust models are found in the English
+language. In the present work, we compare two Artificial Intelligence models that have monolingual and Multilingual approaches, which are Spanish BERT and Multilingual BERT, models based on BERT's transformer Architecture, to which the fine tuned technique was applied for the task of Sentiment analysis on the Amazon reviews dataset in Spanish using the accuracy and F1 score metrics. Finally, it was found that the Spanish BERT model has the best results for the sentiment analysis task on the Amazon reviews dataset in Spanish.
+</p>
+
+this paper is available [here]()
+
 <h2><b>Pipeline</b></h2>
 <p>
 <center>
@@ -26,8 +36,8 @@ git clone https://github.com/alexliqu09/Sentiment-Analysis-on-Amazon-Reviews.git
 
 If you want to train the models use the colab Notebooks
 
-- [Beto]()
-- [MBert]()
+- [Beto](Beto.ipynb)
+- [MBert](MBert.ipynb)
 
 <h2><b>Run the work in local</b></h2>
 
@@ -75,3 +85,4 @@ If you find useful our work , please cite this paper:
   year={2021}
 }
 ```
+
