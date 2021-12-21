@@ -46,7 +46,7 @@ If you want to proof the work ,  you should run the following commands:
 * First , Install requeriments file:
 
 ```
-pip install -r requirements.txt
+pip install -r requeriments.txt
 ```
 
 * Second , download the Weights of [Beto](https://drive.google.com/file/d/12BDzmBHhKgLkHmq-3DbZfmyNGtFF_cnh/view?usp=sharing) & [MBERT](https://drive.google.com/file/d/1CuNLZ0LbFhZbcNBN2hMSb354BKZLgRtR/view?usp=sharing) and put them in this directory 
