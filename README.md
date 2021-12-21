@@ -1,11 +1,3 @@
-<p>
-  <center>
-    <br>
-    <img src="src/bert.png" width="1000px" height="300px">
-    </br>
-    </center>
-</p>
-
 <h1><center><b>Applying BERT Fine Tuning to Sentiment Classification on Amazon Reviews</b></center></h1>
 
 <h2><b>Pipeline</b></h2>
