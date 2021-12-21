@@ -8,7 +8,7 @@ emerge in the field of artificial intelligence to solve this task, the most robu
 language. In the present work, we compare two Artificial Intelligence models that have monolingual and Multilingual approaches, which are Spanish BERT and Multilingual BERT, models based on BERT's transformer Architecture, to which the fine tuned technique was applied for the task of Sentiment analysis on the Amazon reviews dataset in Spanish using the accuracy and F1 score metrics. Finally, it was found that the Spanish BERT model has the best results for the sentiment analysis task on the Amazon reviews dataset in Spanish.
 </p>
 
-this paper is available [here]()
+this paper is available [here](https://drive.google.com/file/d/1Pb4xD-e_KRWBQZ-JdFOgHUJFfKfrL-u_/view?usp=sharing)
 
 <h2><b>Pipeline</b></h2>
 <p>
