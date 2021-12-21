@@ -49,7 +49,7 @@ If you want to proof the work ,  you should run the following commands:
 pip install -r requirements.txt
 ```
 
-* Second , download the Weights [here]() and put them in this directory 
+* Second , download the Weights of Beto[here](https://drive.google.com/file/d/12BDzmBHhKgLkHmq-3DbZfmyNGtFF_cnh/view?usp=sharing) and MBERT[here](https://drive.google.com/file/d/1CuNLZ0LbFhZbcNBN2hMSb354BKZLgRtR/view?usp=sharing) and put them in this directory 
 
 * Third , Start Streamlit server:
 ```
