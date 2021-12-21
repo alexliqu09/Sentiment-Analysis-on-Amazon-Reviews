@@ -27,7 +27,7 @@
 <h2><b>Clone this Repository</b></h2>
 
 ```
-git clone https://github.com/alexliqu09/SentimentAnalysis.git
+git clone https://github.com/alexliqu09/Sentiment-Analysis-on-Amazon-Reviews.git
 ```
 
 <h2><b>Train model</b></h2>
