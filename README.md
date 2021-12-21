@@ -32,7 +32,7 @@ git clone https://github.com/alexliqu09/SentimentAnalysis.git
 
 <h2><b>Train model</b></h2>
 
-If you want to train the models use the olab Notebooks
+If you want to train the models use the colab Notebooks
 
 - [Beto]()
 - [MBert]()
@@ -61,6 +61,7 @@ Network URL:  http://192.168.0.5:8501
 
 <h2><b>Run with Docker 🐋</b></h2>
 
+
 ```
 #Bulding docker image 
 
@@ -77,7 +78,8 @@ open http://localhost:5000.
 If you find useful our work , please cite this paper:
 ```
 @inproceedings{lique,
-  title={Applying BERT Fine Tuning to SentimentClassification on Amazon Reviews},
+  title={Applying BERT Fine Tuning to Sentiment Classification on Amazon Reviews},
   author={Lique, Alexander and Vásquez, Diego and Rios, Manuel },
   year={2021}
 }
+```
