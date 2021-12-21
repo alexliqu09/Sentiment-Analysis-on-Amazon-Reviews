@@ -39,7 +39,7 @@ if __name__ == "__main__":
                 the accuracy and F1 score metrics. Finally, it was found that the Spanish BERT model has the best results for the sentiment
                 analysis task on the Amazon reviews dataset in Spanish.
             </p>
-            <div>Our paper is available <a href="https://drive.google.com/file/d/1Pb4xD-e_KRWBQZ-JdFOgHUJFfKfrL-u_/view?usp=sharing">here</a></div>
+            <div>Our paper is available <a href="https://drive.google.com/file/d/15mRObGkqGaYcMIi1Xu1rbvLLl9eCmhrb/view?usp=sharing">here</a></div>
             """,
             unsafe_allow_html=True
         )
