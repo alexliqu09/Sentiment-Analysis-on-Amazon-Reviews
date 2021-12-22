@@ -79,7 +79,7 @@ open http://localhost:5000.
 
 If you find useful our work , please cite this paper:
 ```
-@inproceedings{lique,
+@inproceedings{@lvrBERT,
   title={Applying BERT Fine Tuning to Sentiment Classification on Amazon Reviews},
   author={Lique, Alexander and Vásquez, Diego and Rios, Manuel },
   year={2021}
