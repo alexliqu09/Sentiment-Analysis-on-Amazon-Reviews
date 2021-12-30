@@ -67,12 +67,12 @@ Network URL:  http://192.168.0.5:8501
 ```
 #Bulding docker image 
 
-docker build -t bert
+docker build -t bert .
 
 #RUN container
 docker run -t -p 5000:5000 --name betocontainer bert
 ```
-open http://localhost:5000.
+open http://172.17.0.2:8501
 
 
 
