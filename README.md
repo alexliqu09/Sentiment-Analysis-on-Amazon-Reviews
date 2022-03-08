@@ -86,6 +86,14 @@ If you find useful our work , please cite this paper:
 }
 ```
 
-
+Please cite the following paper (arXiv) if you found this dataset useful:
+```
+@inproceedings{marc_reviews,
+    title={The Multilingual Amazon Reviews Corpus},
+    author={Keung, Phillip and Lu, Yichao and Szarvas, György and Smith, Noah A.},
+    booktitle={Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing},
+    year={2020}
+}
+```
 
 
